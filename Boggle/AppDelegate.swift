@@ -16,6 +16,16 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     func applicationDidFinishLaunching(aNotification: NSNotification?) {
         // Insert code here to initialize your application
+        
+        let board = Board(xDim: 25, yDim: 25)
+        let dict = Dictionary(path: "wordList.txt");
+        //println("Board:\n\(board)")
+        let foundWords = board.wordsInDictionary(dict)
+        for word in foundWords{
+            println(word)
+        }
+        
+        
     }
 
     func applicationWillTerminate(aNotification: NSNotification?) {

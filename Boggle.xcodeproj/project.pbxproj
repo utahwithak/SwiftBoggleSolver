@@ -11,6 +11,13 @@
 		461F175119D6542F00D820FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 461F175019D6542F00D820FD /* Images.xcassets */; };
 		461F175419D6542F00D820FD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 461F175219D6542F00D820FD /* MainMenu.xib */; };
 		461F176019D6542F00D820FD /* BoggleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F175F19D6542F00D820FD /* BoggleTests.swift */; };
+		461F176A19D6544000D820FD /* wordList.txt in Resources */ = {isa = PBXBuildFile; fileRef = 461F176919D6544000D820FD /* wordList.txt */; };
+		461F176C19D6544D00D820FD /* Boggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F176B19D6544D00D820FD /* Boggle.swift */; };
+		461F176E19D6546300D820FD /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F176D19D6546300D820FD /* Board.swift */; };
+		461F177019D6547200D820FD /* Letter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F176F19D6547200D820FD /* Letter.swift */; };
+		461F177219D6549100D820FD /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F177119D6549100D820FD /* Dictionary.swift */; };
+		461F177419D6554500D820FD /* board1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 461F177319D6554500D820FD /* board1.txt */; };
+		4698A14319D6697C00B174B8 /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4698A14219D6697C00B174B8 /* Trie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +39,13 @@
 		461F175919D6542F00D820FD /* BoggleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoggleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		461F175E19D6542F00D820FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		461F175F19D6542F00D820FD /* BoggleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoggleTests.swift; sourceTree = "<group>"; };
+		461F176919D6544000D820FD /* wordList.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wordList.txt; sourceTree = "<group>"; };
+		461F176B19D6544D00D820FD /* Boggle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Boggle.swift; sourceTree = SOURCE_ROOT; };
+		461F176D19D6546300D820FD /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		461F176F19D6547200D820FD /* Letter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Letter.swift; sourceTree = "<group>"; };
+		461F177119D6549100D820FD /* Dictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
+		461F177319D6554500D820FD /* board1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = board1.txt; sourceTree = "<group>"; };
+		4698A14219D6697C00B174B8 /* Trie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +87,14 @@
 		461F174B19D6542F00D820FD /* Boggle */ = {
 			isa = PBXGroup;
 			children = (
+				461F176B19D6544D00D820FD /* Boggle.swift */,
+				461F176D19D6546300D820FD /* Board.swift */,
+				4698A14219D6697C00B174B8 /* Trie.swift */,
+				461F176F19D6547200D820FD /* Letter.swift */,
+				461F177119D6549100D820FD /* Dictionary.swift */,
 				461F174E19D6542F00D820FD /* AppDelegate.swift */,
+				461F176919D6544000D820FD /* wordList.txt */,
+				461F177319D6554500D820FD /* board1.txt */,
 				461F175019D6542F00D820FD /* Images.xcassets */,
 				461F175219D6542F00D820FD /* MainMenu.xib */,
 				461F174C19D6542F00D820FD /* Supporting Files */,
@@ -186,6 +207,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				461F176A19D6544000D820FD /* wordList.txt in Resources */,
+				461F177419D6554500D820FD /* board1.txt in Resources */,
 				461F175119D6542F00D820FD /* Images.xcassets in Resources */,
 				461F175419D6542F00D820FD /* MainMenu.xib in Resources */,
 			);
@@ -206,6 +229,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				461F174F19D6542F00D820FD /* AppDelegate.swift in Sources */,
+				461F177219D6549100D820FD /* Dictionary.swift in Sources */,
+				461F176C19D6544D00D820FD /* Boggle.swift in Sources */,
+				4698A14319D6697C00B174B8 /* Trie.swift in Sources */,
+				461F176E19D6546300D820FD /* Board.swift in Sources */,
+				461F177019D6547200D820FD /* Letter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +421,7 @@
 				461F176519D6542F00D820FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		461F176619D6542F00D820FD /* Build configuration list for PBXNativeTarget "BoggleTests" */ = {
 			isa = XCConfigurationList;
@@ -401,6 +430,7 @@
 				461F176819D6542F00D820FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
